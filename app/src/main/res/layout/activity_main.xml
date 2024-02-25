@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+        
+>
+
+    <ImageView
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+            
+        android:id="@+id/selectedImageView"
+            
+    />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/selectImageButton"
+        android:text="Select Image"
+            
+    />
+
+    <ScrollView
+        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+            
+    >
+
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+                
+        >
+
+            <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/selectImageButton"
+                android:hint="Result..."
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/base64TextView"
+                    
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/copyButton"
+        android:text="Copy"
+            
+    />
+
+</LinearLayout>

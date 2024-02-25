@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Image to Base64/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "selection": {
+        "end": {
+          "column": 70,
+          "index": 184,
+          "line": 2
+        },
+        "start": {
+          "column": 70,
+          "index": 184,
+          "line": 2
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Image to Base64/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+}
